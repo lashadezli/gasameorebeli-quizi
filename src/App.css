@@ -1,0 +1,42 @@
+
+body
+{
+  margin: 0;
+  background-image:  url(../design/images/bg-stars.svg), url(../design/images/pattern-hills.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-color: hsl(234, 17%, 12%);
+  background-size: auto, 100%;
+}
+.clock-container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 600px;
+  height: 100vh;
+
+}
+
+h1{
+  margin-bottom: 20px;
+  font-size: 30px;
+  margin-top: 80px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.clock-timer
+{
+  margin-top: 50px;
+  font-size: 100px;
+  margin-bottom: 220px;
+  color: hsl(345, 95%, 68%);
+}
+
+.icons
+{
+   display: flex;
+   gap: 30px;
+   color: red;
+}
